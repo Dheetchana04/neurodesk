@@ -1,0 +1,13 @@
+# Core (required)
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+nltk>=3.8
+
+# NLP (optional but recommended — pick one)
+# spacy>=3.7.0           # pip install spacy && python -m spacy download en_core_web_sm
+
+# Web dashboard (optional)
+flask>=3.0.0
+
+# Audio backend for SpeechRecognition on Linux
+# pyaudio>=0.2.14        # may need: sudo apt-get install portaudio19-dev
